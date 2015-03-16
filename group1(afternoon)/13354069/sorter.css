@@ -27,14 +27,22 @@ tr:nth-child(even) td{
 }
 
 
-#staff th:nth-child(1){
-	width: 110px;
-}
-
-#staff th:nth-child(2) {
-	width: 110px;
+#staff th:nth-child(1), #staff th:nth-child(2) {
+	width: 100px;
 }
 
 #staff th:nth-child(3) {
-	width: 140px;
+	width: 130px;
+}
+
+.ascend {
+	background: url("ascend.png") right no-repeat #aabccd;
+}
+
+.descend {
+	background: url("descend.png") right no-repeat #aabccd;
+}
+
+.normal {
+	background-color: #191970;
 }
